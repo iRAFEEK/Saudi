@@ -1,0 +1,11 @@
+{
+  "name": "salamtak",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w @salamtak/ui"
+  }
+}

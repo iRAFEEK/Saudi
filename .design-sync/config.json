@@ -1,0 +1,14 @@
+{
+  "shape": "package",
+  "pkg": "@salamtak/ui",
+  "globalName": "Salamtak",
+  "buildCmd": "npm run build",
+  "cssEntry": "dist/styles.css",
+  "extraFonts": ["src/styles/fonts.css"],
+  "guidelinesGlob": ["../../docs/plan/en/05-design-system.md"],
+  "readmeHeader": ".design-sync/conventions.md",
+  "provider": { "component": "SalamtakApp" },
+  "overrides": {
+    "DataTable": { "cardMode": "column" }
+  }
+}

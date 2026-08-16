@@ -1,0 +1,6 @@
+/* Salamtak سلامتك design system — single stylesheet entry.
+   Import this once; components then style themselves via the slm-* classes
+   and the --slm-* tokens (light + dark defined in tokens.css). */
+@import "./src/styles/fonts.css";
+@import "./src/styles/tokens.css";
+@import "./src/styles/components.css";

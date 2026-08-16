@@ -1,0 +1,110 @@
+/* Salamtak design tokens — "Saudi highway at night".
+   Light = warm sand daylight (bare :root); dark = night asphalt.
+   Dark is defined twice by design: the guarded media block covers OS preference,
+   the [data-theme="dark"] block lets an explicit app toggle win both ways. */
+:root {
+  color-scheme: light;
+  --slm-paper: #F5F2EA;
+  --slm-card: #FFFFFF;
+  --slm-card-2: #FBF9F4;
+  --slm-ink: #1A2622;
+  --slm-ink-2: #55635C;
+  --slm-muted: #8A948E;
+  --slm-line: #E4E0D3;
+  --slm-line-soft: #EEEBE0;
+  --slm-brand: #0E5A46;
+  --slm-brand-strong: #0A4736;
+  --slm-brand-ink: #F2FBF6;
+  --slm-brand-soft: #E1EEE6;
+  --slm-brand-line: #BED7CA;
+  --slm-amber: #A06A0E;
+  --slm-amber-soft: #F6EBD2;
+  --slm-sos: #C7431F;
+  --slm-sos-strong: #A93517;
+  --slm-sos-soft: #F9E4DB;
+  --slm-good: #12703C;
+  --slm-good-soft: #DFF0E2;
+  --slm-bad: #B23227;
+  --slm-bad-soft: #F7E2DF;
+  --slm-info: #2F5C9E;
+  --slm-info-soft: #E2EAF6;
+  --slm-chart-1: #0E8158;
+  --slm-chart-2: #3E71B8;
+  --slm-chart-3: #C9861F;
+  --slm-shadow: 0 1px 2px rgba(26, 38, 34, 0.05), 0 8px 28px -12px rgba(26, 38, 34, 0.14);
+  --slm-shadow-lg: 0 2px 6px rgba(26, 38, 34, 0.06), 0 24px 60px -20px rgba(26, 38, 34, 0.22);
+  /* fixed-night tokens — hero/SOS surfaces that stay dark in every theme */
+  --slm-night-bg: #101714;
+  --slm-night-card: #1A2420;
+  --slm-night-ink: #EDF1EA;
+  --slm-night-ink2: #9DABA1;
+  --slm-night-line: #2B3630;
+  --slm-night-brand: #4BBD95;
+  --slm-night-sos: #F0693E;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --slm-paper: #0F1613;
+    --slm-card: #17211D;
+    --slm-card-2: #1C2722;
+    --slm-ink: #E9EDE6;
+    --slm-ink-2: #A6B2A9;
+    --slm-muted: #79857D;
+    --slm-line: #28332D;
+    --slm-line-soft: #202A25;
+    --slm-brand: #45B893;
+    --slm-brand-strong: #5FCCA8;
+    --slm-brand-ink: #08251B;
+    --slm-brand-soft: #16332A;
+    --slm-brand-line: #2C5346;
+    --slm-amber: #DFA649;
+    --slm-amber-soft: #33290F;
+    --slm-sos: #F0693E;
+    --slm-sos-strong: #F58560;
+    --slm-sos-soft: #3A1E13;
+    --slm-good: #4FBE7E;
+    --slm-good-soft: #163326;
+    --slm-bad: #E2705F;
+    --slm-bad-soft: #381F1A;
+    --slm-info: #7FA9E0;
+    --slm-info-soft: #1D2A3D;
+    --slm-chart-1: #39AB82;
+    --slm-chart-2: #5589D8;
+    --slm-chart-3: #BC8226;
+    --slm-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 8px 28px -12px rgba(0, 0, 0, 0.5);
+    --slm-shadow-lg: 0 2px 6px rgba(0, 0, 0, 0.3), 0 24px 60px -20px rgba(0, 0, 0, 0.6);
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --slm-paper: #0F1613;
+  --slm-card: #17211D;
+  --slm-card-2: #1C2722;
+  --slm-ink: #E9EDE6;
+  --slm-ink-2: #A6B2A9;
+  --slm-muted: #79857D;
+  --slm-line: #28332D;
+  --slm-line-soft: #202A25;
+  --slm-brand: #45B893;
+  --slm-brand-strong: #5FCCA8;
+  --slm-brand-ink: #08251B;
+  --slm-brand-soft: #16332A;
+  --slm-brand-line: #2C5346;
+  --slm-amber: #DFA649;
+  --slm-amber-soft: #33290F;
+  --slm-sos: #F0693E;
+  --slm-sos-strong: #F58560;
+  --slm-sos-soft: #3A1E13;
+  --slm-good: #4FBE7E;
+  --slm-good-soft: #163326;
+  --slm-bad: #E2705F;
+  --slm-bad-soft: #381F1A;
+  --slm-info: #7FA9E0;
+  --slm-info-soft: #1D2A3D;
+  --slm-chart-1: #39AB82;
+  --slm-chart-2: #5589D8;
+  --slm-chart-3: #BC8226;
+  --slm-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 8px 28px -12px rgba(0, 0, 0, 0.5);
+  --slm-shadow-lg: 0 2px 6px rgba(0, 0, 0, 0.3), 0 24px 60px -20px rgba(0, 0, 0, 0.6);
+}

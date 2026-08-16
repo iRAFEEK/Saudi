@@ -1,0 +1,5 @@
+node_modules/
+packages/*/dist/
+ds-bundle/
+.ds-sync/
+*.tsbuildinfo

@@ -21,6 +21,7 @@ The tow is not a product — it is **customer acquisition**. We arrive first (�
 | [05 — Design system](05-design-system.md) | Principles, tokens, typography, RTL rules, voice & tone with real Arabic copy |
 | [06 — Data & architecture](06-data-and-architecture.md) | ERD, case state machine, permissions, stack, integrations, compliance |
 | [07 — Roadmap & metrics](07-roadmap-and-metrics.md) | Phases, KPIs with definitions, launch checklist, parked decisions |
+| [08 — Claude Design prompts](08-claude-design-prompts.md) | Ready-to-paste prompt per screen for building on the synced design system in claude.ai/design |
 
 ## Scope decisions (agreed 2026-08-16)
 

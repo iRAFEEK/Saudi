@@ -2,7 +2,7 @@
 
 **The first call after the accident — أول اتصال بعد الحادث**
 
-The complete product plan for the Riyadh accident-to-repair platform, in two full languages. Pick your language — both trees contain the same eight documents, kept in sync:
+The complete product plan for the Riyadh accident-to-repair platform, in two full languages. Pick your language — both trees contain the same nine documents, kept in sync:
 
 | 🇬🇧 English | 🇸🇦 العربية |
 |---|---|

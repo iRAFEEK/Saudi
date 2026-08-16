@@ -2,4 +2,7 @@ node_modules/
 packages/*/dist/
 ds-bundle/
 .ds-sync/
+.design-sync/.cache/
+.design-sync/learnings/
+.design-sync/node_modules
 *.tsbuildinfo

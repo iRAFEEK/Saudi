@@ -14,4 +14,5 @@ export { KanbanColumn, type KanbanColumnProps, KanbanCard, type KanbanCardProps 
 export { EstimateLine, type EstimateLineProps, type EstimateOption } from './components/domain/EstimateLine';
 export { TotalBar, type TotalBarProps } from './components/domain/TotalBar';
 export { MapCard, type MapCardProps } from './components/domain/MapCard';
+export { SalamtakApp, type SalamtakAppProps } from './components/SalamtakApp';
 export { cx } from './cx';

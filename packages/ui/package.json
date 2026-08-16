@@ -23,7 +23,7 @@
     "*.css"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format esm --dts --sourcemap --out-dir dist",
+    "build": "tsup src/index.ts --format esm --dts --sourcemap --out-dir dist && cat src/styles/tokens.css src/styles/components.css > dist/styles.css",
     "typecheck": "tsc --noEmit"
   },
   "peerDependencies": {
